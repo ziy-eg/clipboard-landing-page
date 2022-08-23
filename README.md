@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site]()
+- Live Site URL: [Live Site](https://ziy-eg.github.io/clipboard-landing-page/)
 - Solution URL: [frontend mentor challenge](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9)
 
 ## My process
