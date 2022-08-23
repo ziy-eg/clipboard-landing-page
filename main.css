@@ -1,0 +1,260 @@
+:root {
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    --dark-grayBlue: hsl(210, 10%, 33%);
+    --light-grayBlue: hsl(201, 11%, 66%);
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+/*Start header part styling*/
+#header {
+    width: 100vw;
+    height: 700px;
+    padding-top: 100px;
+    background-image: url("../images/bg-header-desktop.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-title {
+    color: var(--dark-grayBlue);
+    font-size: 3rem;
+    font-weight: 600;
+    width: 90vw;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: var(--dark-grayBlue);
+    opacity: 50%;
+    max-width: 600px;
+    min-width: min-content;
+}
+/*End header part styling*/
+
+/***Start button styling***/
+.button-container {
+    margin-top: 50px;
+}
+
+.ios-download {
+    color: white;
+    background-color: var(--strong-cyan);
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 10px;
+    font-size: 1rem;
+    border: transparent;
+}
+
+.mac-download {
+    color: white;
+    background-color: var(--light-blue);
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 25px;
+    font-size: 1rem;
+    border: transparent;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+/***End button styling***/
+
+/**Start main part styling**/
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#snippet {
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#snippet-info {
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px 40px;
+}
+
+#snippet .title {
+    grid-row: 1/2;
+}
+
+#snippet-info img {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    width: 50vw;
+    height: auto;
+}
+#info-container {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info-snippet {
+    text-align: left;
+    min-width: 100px;
+    max-width: 60%;
+    font-size: 1.1rem;
+}
+
+.info-snippet h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.info-snippet p {
+    opacity: 50%;
+}
+
+#clipboard {
+    width: 100vw;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+#clipboard img {
+    margin-top: 50px;
+    width: 80vw;
+    height: auto;
+}
+
+#workflow {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#workflow-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.info-workflow {
+    width: 30%;
+    min-width: 100px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info-workflow h3 {
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.info-workflow p {
+    opacity: 50%;
+}
+
+#partners {
+    min-height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#download {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/**End main part styling**/
+
+/**** Start footer styling****/
+#footer {
+    background-color: #eee;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#footer nav {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+    height: 40%;
+    width: 30%;
+}
+#contact svg {
+    margin: 10px;
+}
+/**** End footer styling****/

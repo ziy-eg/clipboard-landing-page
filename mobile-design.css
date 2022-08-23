@@ -1,0 +1,157 @@
+@media (max-width:600px) {
+/*Start header part styling*/
+#header {
+    background-image: url("../images/bg-header-mobile.png");
+}
+
+.subtitle {
+    font-size: 18px;
+    color: var(--dark-grayBlue);
+    opacity: 50%;
+    max-width: 90vw;
+    min-width: min-content;
+}
+/*End header part styling*/
+
+/**Start main part styling**/
+#snippet {
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+#snippet-info {
+    width: 100%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#snippet .title {
+    display: initial;
+}
+
+#snippet-info img {
+    display: initial;
+    width: 90vw;
+    margin: 10px auto;
+}
+#info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info-snippet {
+    text-align: center;
+    min-width: 100px;
+    max-width: 70%;
+    font-size: 1.1rem;
+}
+
+.info-snippet h3 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+#clipboard {
+    width: 100vw;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+#clipboard img {
+    margin-top: 50px;
+    width: 90vw;
+    height: auto;
+}
+
+#workflow {
+    height: fit-content;
+}
+
+#workflow-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.info-workflow {
+    width: 60%;
+    min-width: 100px;
+    font-size: 1rem;
+    margin: 20px auto;
+}
+
+#partners {
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#partners img {
+    margin: 20px auto;
+}
+
+#download {
+    height: 400px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/**End main part styling**/
+
+/**** Start footer styling****/
+#footer {
+    background-color: #eee;
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#footer nav {
+    width: 100%;
+    height: fit-content;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: initial;
+}
+
+li {
+    text-align: center;
+    height: fit-content;
+    width: 100%;
+    margin: 10px;
+}
+#contact svg {
+    margin: 20px;
+}
+/**** End footer styling****/
+}
