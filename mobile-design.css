@@ -1,7 +1,7 @@
 @media (max-width:600px) {
 /*Start header part styling*/
 #header {
-    background-image: url("../images/bg-header-mobile.png");
+    background-image: url("./images/bg-header-mobile.png");
 }
 
 .subtitle {
